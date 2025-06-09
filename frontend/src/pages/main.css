@@ -1,0 +1,242 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #000;
+  font-family:
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.swiper-slide img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 100vh;  /* ✅ 화면을 넘지 않게 */
+  object-fit: contain;
+}
+
+
+.swiper-pagination-bullet {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  color: #000;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #000;
+}
+
+.banner {
+  background: url(/public/img/car-bg-w.jpg) center top / auto 100% no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.detail-none {
+  display: none;
+}
+
+@keyframes slideInFromRight {
+  from {
+    opacity: 0;
+    transform: translateX(500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.car-img img {
+  display: block;
+  margin: 0 auto; /* 중앙 정렬 */
+}
+
+.image-slide-in {
+  animation: slideInFromRight 1s ease-out forwards;
+}
+
+@media (max-width:1069px) {
+  .car-img {
+    margin-top:20px;
+  }
+}
+
+
+@media (max-width:1300px) {
+     .banner-top>h2, .banner-top>p {
+      padding-left: 70px !important;
+    }
+}
+
+@media (max-width:1200px) {
+      .banner-top {
+      padding-bottom: 50px !important;
+    }
+
+}
+
+@media (max-width:1024px) {
+  .detail-desc {
+    font-size:20px !important;
+  }
+  .detail-name {
+    font-size:35px !important;
+  }
+  .detail-image {
+    max-width: 450px !important;
+  }
+}
+
+
+@media (max-width:1000px) {
+  .car-img {
+    margin-top:30px;
+  }
+}
+
+
+
+@media (max-width:950px) {
+     .banner-top {
+      padding-bottom: 70px !important;
+    }
+
+}
+
+@media (max-width:860px) {
+  .car-img {
+    margin-top:40px;
+  }
+
+  .detail-image {
+    max-width: 350px !important;
+  }
+}
+
+@media (max-width:767px) {
+    .car-img {
+        margin-top: 60px !important;
+    }
+
+    .banner-top {
+      padding-bottom: 50px !important;
+      padding-top:60px !important;
+    }
+
+    .banner-top>h2, .banner-top>p {
+      padding-left: 100px !important;
+    }
+
+    .banner-top>h2 {
+      font-size:45px !important;
+    }
+
+    .banner-top>p {
+      font-size:20px !important;
+    }
+
+    .detail-box {
+      gap:0 !important; 
+    }
+    .detail-hide {
+      display:none;
+    }
+    .detail-btn {
+      width:100% !important;
+    }
+    .detail-btn.btn2 {
+      margin-top:10px;
+    }
+    .detail-image {
+      display:none;
+    }
+    .detail-none {
+      display: block;
+    }
+    .product-x {
+      margin-right:20px;
+    }
+
+}
+
+@media (max-width:690px){
+    .banner-top>h2, .banner-top>p {
+      padding-left: 70px !important;
+    }
+
+        .car-img {
+        margin-top: 80px !important;
+    }
+}
+
+@media (max-width:600px) {
+  .car-img {
+    margin-top:90px !important;
+  }
+}
+
+@media (max-width:560px) {
+  .car-img {
+    margin-top:110px !important;
+  }
+}
+
+@media (max-width:460px) {
+  .car-img {
+    margin-top:120px !important;
+  }
+}
+
+.event-swiper {
+  height: auto !important; /* 이벤트 슬라이드는 auto로 */
+}
+
+.event-swiper>.swiper-slide {
+  height: auto !important; /* 높이 강제하지 않기 */
+  padding-bottom: 40px !important;
+}
+
+.banner-swiper,
+.banner-swiper>.swiper-slide {
+  height: 100vh;
+}
+
