@@ -40,13 +40,8 @@
    - 최신 차량 모델 배너, 이벤트 정보를 한눈에 볼 수 있는 랜딩 페이지 구현
    - 반응형 레이아웃 적용으로 다양한 기기 환경에 대응
 
+<img width="1898" height="2294" alt="hyundai-full" src="https://github.com/user-attachments/assets/750cd110-acf4-4759-a0af-ee2e9ccace80" />
 <img width="1920" alt="localhost_3000_(iPhone 6_7_8)" src="https://github.com/user-attachments/assets/fe19a148-fa38-4469-af72-ddbaf32ce3d2" />
-<div>
-  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eba4adbb-dcc5-4fc9-9703-96666792ddb6" />
-  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9efc9102-13ec-423d-8e60-b89ee285ab4f" />
-
-</div>
-
 
 
 2. **모델 페이지**
